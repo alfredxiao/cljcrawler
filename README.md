@@ -13,6 +13,7 @@ A crawler in Clojure which allows you to download a website, or a subset of it, 
 1. To include more types of (links) in an HTML, like CSS imports
 2. Add authentication handling (BASIC/Form/...)
 3. Allows a more flexible way of setting parameters like start url, etc.
+4. Parallelize file downloading
 
 ## License
 
