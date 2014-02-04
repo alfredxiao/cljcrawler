@@ -1,14 +1,14 @@
 (ns cljcrawler.config)
 
 ;; directory to store downloaded files, be sure to ends with a /
-(def conf-home-dir "/home/alfred/xiaoyf/test/alserver1/")
+(def conf-home-dir "/home/alfred/xiaoyf/test/vicroads/")
 
 ;; only those URLs that starts with below prefixes are fetched/crawled
-(def allowed-prefix #{"http://alserver1.cn.oracle.com/autoSR2/"
-                      })
+(def allowed-prefix #{"http://www.vicroads.vic.gov.au/Home/SafetyAndRules/"
+                      "http://www.vicroads.vic.gov.au"})
 
 ;; which URL to start working on
-(def conf-start-url "http://alserver1.cn.oracle.com/autoSR2/index.html")
+(def conf-start-url "http://www.vicroads.vic.gov.au/Home/SafetyAndRules/")
 
-;; added as prefix to those href starting with /
-(def conf-site-base "http://alserver1.cn.oracle.com")
+;; added as prefix to those href values starting with /
+(def conf-site-base "http://www.vicroads.vic.gov.au")
