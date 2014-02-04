@@ -1,6 +1,6 @@
 # CljCrawler
 
-A crawler in Clojure.
+A crawler in Clojure which allows you to download a website, or a subset of it, for offline viewing.
 
 ## Usage
 1. Presently, you need to set application parameters in config.clj before running
@@ -11,8 +11,8 @@ A crawler in Clojure.
 
 ## TODO
 1. To include more types of (links) in an HTML, like CSS imports
-2. authentication handling
-3. 
+2. Add authentication handling (BASIC/Form/...)
+3. Allows a more flexible way of setting parameters like start url, etc.
 
 ## License
 
