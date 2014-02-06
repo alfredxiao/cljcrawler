@@ -8,6 +8,7 @@ A crawler in Clojure which allows you to download a website, or a subset of it, 
 
         lein run MAX_DEPTH
         ;; MAX_DEPTH determins how deep down the web, which can be considered a tree with starting URL as the root, you are going to crawl/fetch.
+        ;; e.g. lein run 1  (fetches only the starting page and all pages contained within this page)
 
 ## TODO
 1. To include more types of (links) in an HTML, like CSS imports
